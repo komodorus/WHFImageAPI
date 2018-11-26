@@ -46,7 +46,9 @@ class ImageController extends Controller
             'path' => $path
         ]);
 
-        return asset($path);
+        return response()->json([
+            'uploaded_image_url' => asset($path)
+        ]);
 
     }
 
