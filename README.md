@@ -12,4 +12,4 @@
 ## Uso
 - POST : http://api.komodorus.com.br/api/image
 
-**Retorna url do imagem.**
+**Retorna url da imagem.**
