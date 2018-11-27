@@ -11,4 +11,5 @@
 
 ## Uso
 - POST : http://api.komodorus.com.br/api/image
+
 **Retorna url do imagem.**
