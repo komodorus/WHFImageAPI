@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Image;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class ImageController extends Controller
 {
@@ -47,7 +48,7 @@ class ImageController extends Controller
         ]);
 
         return response()->json([
-            'uploaded_image_url' => asset($path)
+            'uploaded_image_url' => env('APP_URL') . Storage::url($path)
         ]);
 
     }
