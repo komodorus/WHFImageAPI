@@ -69,6 +69,12 @@
                 <div class="title m-b-md">
                     WHFImageAPI
                 </div>
+
+                <div class="links">
+                    <p>
+                        POST : {{ env('APP_URL') . 'api/image'}} <br>
+                    </p>
+                </div>
             </div>
         </div>
     </body>
